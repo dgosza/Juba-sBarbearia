@@ -8,5 +8,8 @@ Meu Primeiro projeto desenvolvido para um cliente e amigo que tem uma barbearia 
 
 - ReactJS
 - MaterializeCSS
-- React Icons
 - Styled Icons
+- Material UI
+
+### UI
+Fonte utilizada para titulos do site: <a href="https://fonts.google.com/specimen/Spartan">Spartan
