@@ -9,7 +9,7 @@ Meu Primeiro projeto desenvolvido para um cliente e amigo que tem uma barbearia 
 - ReactJS
 - MaterializeCSS
 - Styled Icons
-- Material UI
+- Material UI: Tooltip
 
 ### UI
 Fonte utilizada para titulos do site: <a href="https://fonts.google.com/specimen/Spartan">Spartan
