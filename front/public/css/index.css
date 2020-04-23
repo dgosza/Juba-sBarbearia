@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Raleway|Ubuntu&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+a.btn{
+    background-color: #7c0e13;
+}
+
+a.btn:hover{
+    background-color: #be0b14;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #7c0e13;
+    -webkit-box-shadow: 0 1px 0 0 #7c0e13;
+    box-shadow: 0 1px 0 0 #7c0e13;
+}
+
+
+.nav-wrapper ul li a{
+    font-family: sans-serif;
+}
+
+/* title */
+.divider{
+    opacity: 0.4;
+}
+
+
+/* midia social */
+#linkWhats{
+    text-decoration: none;
+    color: green
+}
+.linkMidiaSocial i{
+    color: #7c0e13
+}
+.linkMidiaSocial i:hover{
+    color: #9b0810
+}

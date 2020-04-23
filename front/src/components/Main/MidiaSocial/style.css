@@ -1,0 +1,9 @@
+.linkMidiaSocial{
+    text-decoration: none;
+    color: #7c0e13
+}
+
+.linkMidiaSocial:hover{
+    opacity: initial;
+    color: #ac020b
+}
