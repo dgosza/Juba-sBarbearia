@@ -9,7 +9,8 @@ const Banner = (props) => {
                 <div className="parallax"><img src={BannerImage} /></div>
                 <div className="container">
                     <div className="col s12 l12 textParallax">
-                        {props.children}
+                        <h3>Juba's Barbearia</h3>
+                        <p>texto texto texto texto texto texto texto texto texto texto texto texto texto </p>
                     </div>
                 </div>
             </div>

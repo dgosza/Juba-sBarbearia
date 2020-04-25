@@ -9,23 +9,21 @@ import Contato from './Contato'
 import Localizacao from './Localizacao'
 import MidiaSocial from './MidiaSocial'
 import Rodape from './Rodape'
+import Servicos from './Servicos'
 
 import Aux from '../hoc'
 
 const Main = () => {
     return (
         <Aux>
-            <Banner>
-                <h3>Juba's Barbearia</h3>
-                <p>texto texto texto texto texto texto texto texto texto texto texto texto texto </p>
-            </Banner>
+            <Banner></Banner>
 
             <Ambiente></Ambiente>
             <Slides></Slides>
+            <Servicos></Servicos>
             <Equipe></Equipe>
             <Contato></Contato>
             <Localizacao></Localizacao>
-            <MidiaSocial></MidiaSocial>
             <Rodape></Rodape>
 
         </Aux>

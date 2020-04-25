@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.precoServico{
+    color: #ac020b;
+    font-family: 'Oswald', sans-serif;
+    font-size:15px;
+}
+
+.iconeService{
+    color: #ac020b;
+}
+
+.media{
+    height: 140;
+}
+
+.root{
+    max-width: 345;
+}

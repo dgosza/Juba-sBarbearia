@@ -14,7 +14,6 @@ const App = () => {
         <Aux>
             <Header></Header>
             <Main></Main>
-            <p>test</p>
         </Aux>
     )
 }

@@ -1,4 +1,8 @@
 import React from 'react';
+
+import { Instagram } from '@styled-icons/boxicons-logos'
+import { Facebook } from '@styled-icons/fa-brands'
+
 import ImageLogo from '../../assets/images/jubas.png'
 import './style.css'
 
@@ -20,6 +24,8 @@ const Header = () => {
                             <li><a href="sass.html">Produtos</a></li>
                             <li><a href="badges.html">Sobre</a></li>
                             <li><a href="collapsible.html">Contato</a></li>
+                            <li className="icon"><Instagram size={30}></Instagram></li>
+                            <li className="icon"><Facebook size={30}></Facebook></li>
                         </ul>
                     </div>
                 </div>

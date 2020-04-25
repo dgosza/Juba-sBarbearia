@@ -7,29 +7,29 @@ const Slides = () => {
                 <li>
                     <img src="#!" />
                     <div className="caption center-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Bebidas</h3>
+                        <h5 className="light grey-text text-lighten-3">Espaco com alguns drinks.</h5>
                     </div>
                 </li>
                 <li>
                     <img src="#!" />
                     <div className="caption left-align">
-                        <h3>Left Aligned Caption</h3>
-                        <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Bilhar</h3>
+                        <h5 className="light grey-text text-lighten-3">Espaco para bilhar.</h5>
                     </div>
                 </li>
                 <li>
                     <img src="#!" /> 
                     <div className="caption right-align">
-                        <h3>Right Aligned Caption</h3>
-                        <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Musica</h3>
+                        <h5 className="light grey-text text-lighten-3">Ambiente com musica.</h5>
                     </div>
                 </li>
                 <li>
                     <img src="#!" /> 
                     <div className="caption center-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3>Jogos</h3>
+                        <h5 className="light grey-text text-lighten-3">Ambiente com jogos</h5>
                     </div>
                 </li>
             </ul>
