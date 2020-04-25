@@ -38,10 +38,9 @@ export default function MediaCard({ iconeServico, nomeServico, descricaoServico,
             </CardContent>
 
             <CardActions>
-                <Button size="small" color="primary">
-                    <p className="precoServico">R$: {precoServico}</p>
-                </Button>
-                <Button size="small" color="primary">Marcar Horario</Button>
+
+                <p className="precoServico">R$: {precoServico}</p>
+                <a className="botaoServico waves-effect waves-light" href="!#">marcar horario</a>
             </CardActions>
 
         </Card>

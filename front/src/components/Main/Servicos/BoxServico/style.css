@@ -2,3 +2,15 @@
     position:relative;
     top:3px
 }
+
+.precoServico{
+    margin-left: 10px;
+}
+
+.botaoServico{
+    background-color: inherit;
+    color: rgb(51, 51, 234);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:13px;
+}
