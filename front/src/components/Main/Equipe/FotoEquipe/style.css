@@ -1,0 +1,11 @@
+.barberLeft{
+    position:relative;
+    left:70px;
+    top:10px
+}
+
+.barberRight{
+    position:relative;
+    right:70px;
+    top:10px;
+}
