@@ -18,9 +18,16 @@ const Rodape = () => {
                     <div class="col l6 s12">
                         <h5 class="white-text">Juba's Barbearia</h5>
                         <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                        <p><b>Horário de Funcionamento</b><br />
-                        Dias Úteis: 08h às 18h<br />
-                        Finais de Semana: 09h às 15h<br /></p>
+                        <div class="col s12 l6">
+                            <p><b>Horário de Funcionamento</b><br />
+                            Dias Úteis: 08h às 18h<br />
+                            Finais de Semana: 09h às 15h<br /></p>
+                        </div>
+                        <div class="col s12 l6">
+                            <p><b>Telefones de Contato</b><br />
+                            Fixo: 11-2621-2621<br />
+                            Celular: 11-2621-2621<br /></p>
+                        </div>
                         <Tooltip title="Juba's no Instagram">
                             <a href="https://www.instagram.com/barbearia_jubas/" className="icon"><Instagram size={30} /></a>
                         </Tooltip>
