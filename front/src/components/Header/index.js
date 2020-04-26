@@ -5,7 +5,7 @@ import { Instagram } from '@styled-icons/boxicons-logos'
 import { SocialFacebookCircular } from '@styled-icons/typicons'
 import { Whatsapp } from '@styled-icons/icomoon'
 
-import ImageLogo from '../../assets/images/jubas.png'
+import LogoJubas from '../Utils/LogoJubas'
 import './style.css'
 
 //Tooltip
@@ -17,7 +17,7 @@ const Header = () => {
         <header>
             <nav>
                 <div className="row container">
-                    <a href="index.html" className="brand-logo center"> <img src={ImageLogo} alt="Logo Juba's Barbearia" width="120" /> </a>
+                    <a href="index.html" className="brand-logo center"> <LogoJubas dimensao="150" /></a>
                     <div className="nav-wrapper">
                         <ul className="left hide-on-med-and-down menu">
                             <li><a href="sass.html">Home</a></li>

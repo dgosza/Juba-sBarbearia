@@ -9,3 +9,7 @@
 .icon{
     color: #fff
 }
+
+.linkRodape a:hover{
+    border-bottom: 1px solid white;
+}
