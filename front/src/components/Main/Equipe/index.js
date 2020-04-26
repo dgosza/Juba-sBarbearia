@@ -11,7 +11,7 @@ import './style.css'
 const Equipe = () => {
 
     return (
-        <div className="row container">
+        <div className="row container" id="equipeHREF">
             <div className="col s12 l12">
                 <Titulo>Equipe</Titulo>
                 <div className="col s12 l6 center">

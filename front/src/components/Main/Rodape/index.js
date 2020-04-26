@@ -38,12 +38,12 @@ const Rodape = () => {
                     <div className="col l3 offset-l1 s12">
                         <h5 className="white-text">Links</h5>
                         <ul>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#!">Home</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#!">Equipe</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#!">Serviços</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#!">Produtos</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#!">Sobre</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#!">Contato</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#homeHREF">Home</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#ambienteHREF">Equipe</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#servicosHREF">Serviços</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#equipeHREF">Produtos</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#contatoHREF">Sobre</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#localizacaoHREF">Contato</a></li>
                         </ul>
                         <Tooltip title="Juba's no Instagram">
                             <a href="https://www.instagram.com/barbearia_jubas/" rel="noopener noreferrer" target="_blank" className="icon"><Instagram size={30} /></a>

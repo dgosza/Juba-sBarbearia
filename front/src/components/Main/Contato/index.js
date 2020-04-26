@@ -8,7 +8,7 @@ import './style.css'
 
 const Contato = () => {
     return (
-        <div className="row container">
+        <div className="row container" id="contatoHREF">
             <div className="col s12 l12">
                 <Titulo>Contato</Titulo>
             </div>
