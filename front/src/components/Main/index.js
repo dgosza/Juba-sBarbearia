@@ -7,7 +7,6 @@ import Slides from './Slides'
 import Equipe from './Equipe'
 import Contato from './Contato'
 import Localizacao from './Localizacao'
-import MidiaSocial from './MidiaSocial'
 import Rodape from './Rodape'
 import Servicos from './Servicos'
 

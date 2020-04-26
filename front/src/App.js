@@ -4,7 +4,6 @@ import './App.css';
 //Components
 import Header from './components/Header'
 import Main from './components/Main'
-import Bottom from './components/Bottom'
 
 //HOC Aux
 import Aux from './components/hoc'

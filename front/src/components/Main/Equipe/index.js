@@ -1,7 +1,6 @@
 import React from 'react';
-import ImageEquipe from '../../../assets/images/icon.PNG'
 
-//Componente FOtoEquipe
+//Componente FotoEquipe
 import FotoEquipe from './FotoEquipe'
 
 //Componente Titulo
@@ -10,8 +9,6 @@ import Titulo from '../../Utils/Titulo'
 import './style.css'
 
 const Equipe = () => {
-
-    const iconeBarber = <img src="https://img.icons8.com/plasticine/100/000000/barber-pole.png" />
 
     return (
         <div className="row container">

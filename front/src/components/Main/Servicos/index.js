@@ -8,7 +8,6 @@ import BoxServico from './BoxServico'
 //Icones
 import { IoIosCut } from 'react-icons/io'
 import { GiBeard } from 'react-icons/gi'
-import { GiLightningTrio } from 'react-icons/gi'
 import { GiLargePaintBrush } from 'react-icons/gi'
 import { GiComb } from 'react-icons/gi'
 import { GiRazorBlade } from 'react-icons/gi'
@@ -17,9 +16,6 @@ import { IoMdFlashlight } from 'react-icons/io'
 import './style.css'
 
 const Servicos = () => {
-
-    const iconeCorte = <IoIosCut></IoIosCut>
-
 
     return (
         <div className="row container">

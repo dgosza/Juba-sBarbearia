@@ -1,5 +1,4 @@
 import React from 'react';
-import {Whatsapp} from '@styled-icons/icomoon'
 import Formulario from './Formulario'
 
 //Componente Titulo

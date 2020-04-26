@@ -46,15 +46,15 @@ const Rodape = () => {
                             <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#!">Contato</a></li>
                         </ul>
                         <Tooltip title="Juba's no Instagram">
-                            <a href="https://www.instagram.com/barbearia_jubas/" className="icon"><Instagram size={30} /></a>
+                            <a href="https://www.instagram.com/barbearia_jubas/" rel="noopener noreferrer" target="_blank" className="icon"><Instagram size={30} /></a>
                         </Tooltip>
 
                         <Tooltip title="Juba's no Facebook">
-                            <a href="https://www.facebook.com/barbeariajubas" className="icon"><SocialFacebookCircular size={35} /></a>
+                            <a href="https://www.facebook.com/barbeariajubas" rel="noopener noreferrer" target="_blank" className="icon"><SocialFacebookCircular size={35} /></a>
                         </Tooltip>
 
                         <Tooltip title="Juba's no Whatsapp">
-                            <a href="" className="icon"><Whatsapp size={25} /></a>
+                            <a href="!#" target="_blank" rel="noopener noreferrer"  className="icon"><Whatsapp size={25} /></a>
                         </Tooltip>
                     </div>
                     <div className="col s12 l2">

@@ -31,15 +31,15 @@ const Header = () => {
                             <li><a href="collapsible.html">Contato</a></li>
 
                             <Tooltip title="Juba's no Instagram">
-                                <li className="icon"><a href="https://www.instagram.com/barbearia_jubas/"><Instagram size={30}/></a></li>
+                                <li className="icon"><a href="https://www.instagram.com/barbearia_jubas/" target="_blank" rel="noopener noreferrer" ><Instagram size={30}/></a></li>
                             </Tooltip>
 
                             <Tooltip title="Juba's no Facebook">
-                                    <li className="icon"><a href="https://www.facebook.com/barbeariajubas"><SocialFacebookCircular size={35}/></a></li>
+                                    <li className="icon"><a href="https://www.facebook.com/barbeariajubas" target="_blank" rel="noopener noreferrer" ><SocialFacebookCircular size={35}/></a></li>
                             </Tooltip>
 
                             <Tooltip title="Juba's no Whatsapp">
-                                    <li className="icon"><a href=""><Whatsapp size={25}/></a></li>
+                                    <li className="icon"><a href="!#" target="_blank" rel="noopener noreferrer" ><Whatsapp size={25}/></a></li>
                             </Tooltip>
 
                         </ul>
