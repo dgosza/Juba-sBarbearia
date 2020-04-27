@@ -7,8 +7,8 @@ const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) =>
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'diegomagasouza@gmail.com', // generated ethereal user
-            pass: 'dkwnarmy1Ddiegoo' // generated ethereal password
+            user: 'EMAIL', // generated ethereal user
+            pass: 'PASSWORD' // generated ethereal password
         }
     })
 
