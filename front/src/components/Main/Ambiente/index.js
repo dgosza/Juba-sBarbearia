@@ -3,9 +3,10 @@ import './style.css';
 
 //Icones
 import { Drink } from '@styled-icons/boxicons-solid';
-import { Music } from '@styled-icons/crypto'
+import { FolderMusic } from '@styled-icons/entypo'
 import { GameController } from '@styled-icons/entypo'
 import { GiEightBall } from 'react-icons/gi'
+
 
 //Componente Titulo
 import Titulo from '../../Utils/Titulo'
@@ -30,7 +31,7 @@ const Ambiente = () => {
                 </div>
 
                 <div className="col s12 l3 center">
-                    <Music size={80} />
+                    <FolderMusic size={80} />
                     <p className="titleAmbiente">Música</p>
                     <p>Enquanto espera ou no decorrer do corte de cabelo, escute suas músicas preferidas.</p>
                 </div>
@@ -38,7 +39,7 @@ const Ambiente = () => {
                 <div className="col s12 l3 center">
                     <GameController size={80} />
                     <p className="titleAmbiente">Jogos</p>
-                    <p>Em nossa Barbearia contamos com vide-game para nossos clientes jogarem enquanto esperam.</p>
+                    <p>Em nossa Barbearia contamos com video-game para nossos clientes jogarem enquanto esperam.</p>
                 </div>
 
             </div>
