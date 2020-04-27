@@ -8,6 +8,10 @@ import Typography from '@material-ui/core/Typography';
 
 import Foto from '../../../../assets/images/bg-rodape.png'
 
+//Transformar o React element em JSX(string) retornado do componente de gerar o link do whatsapp.
+import { renderToString } from 'react-dom/server'
+import LinkWhats from '../../../Utils/Whatsapp'
+
 import './style.css'
 
 const useStyles = makeStyles({
@@ -19,8 +23,10 @@ const useStyles = makeStyles({
     },
 });
 
-export default function MediaCard({ iconeServico, nomeServico, descricaoServico, precoServico }) {
+export default function MediaCard({ iconeServico, nomeServico, descricaoServico, precoServico, mensagemWhats }) {
     const classes = useStyles();
+
+    const linkWhats = renderToString(<LinkWhats mensagem={mensagemWhats} ></LinkWhats>)
 
     return (
         <Card className={classes.root}>
@@ -37,9 +43,8 @@ export default function MediaCard({ iconeServico, nomeServico, descricaoServico,
             </CardContent>
 
             <CardActions>
-
                 <p className="precoServico">R$: {precoServico}</p>
-                <a className="botaoServico waves-effect waves-light" href="!#">marcar horario</a>
+                <a className="botaoServico waves-effect waves-light" href={linkWhats} target="_blank" rel="noopener noreferrer" >marcar horário</a>
             </CardActions>
 
         </Card>

@@ -6,13 +6,16 @@ import { SocialFacebookCircular } from '@styled-icons/typicons'
 import { Whatsapp } from '@styled-icons/icomoon'
 
 import Tooltip from '@material-ui/core/Tooltip'
-
 import LogoJubas from '../../Utils/LogoJubas'
+
+import LinkWhats from '../../Utils/Whatsapp'
+import {renderToString} from 'react-dom/server'
 
 import './style.css'
 
 const Rodape = () => {
 
+    const linkWhats = renderToString(<LinkWhats mensagem="Ola Juba's! Gostaria de saber mais detalhes sobre a Barbearia." ></LinkWhats>)
 
     return (
         <footer className="page-footer">
@@ -54,7 +57,7 @@ const Rodape = () => {
                         </Tooltip>
 
                         <Tooltip title="Juba's no Whatsapp">
-                            <a href="!#" target="_blank" rel="noopener noreferrer"  className="icon"><Whatsapp size={25} /></a>
+                            <a href={linkWhats} target="_blank" rel="noopener noreferrer"  className="icon"><Whatsapp size={25} /></a>
                         </Tooltip>
                     </div>
                     <div className="col s12 l2">

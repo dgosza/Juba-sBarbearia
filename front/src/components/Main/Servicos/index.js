@@ -27,7 +27,7 @@ const Servicos = () => {
                 nomeServico="Corte Masculino"
                 descricaoServico="Corte de Cabelo com tesoura, navalha e ao final um retoque com crede de cabelo..."
                 precoServico="25,00"
-                apiMsgWhatsapp=""
+                mensagemWhats="Olá Juba's! Gostaria de saber mais detalhes e horários sobre o corte de cabelo masculino."
                 />
             </div>
             <div className="col s12 l4">
@@ -36,7 +36,7 @@ const Servicos = () => {
                 nomeServico="Barba"
                 descricaoServico="Corte de Cabelo com tesoura, navalha e ao final um retoque com crede de cabelo..."
                 precoServico="25,00"
-                apiMsgWhatsapp=""
+                mensagemWhats="Olá Juba's! Gostaria de saber mais detalhes e horários sobre o serviço de Barba."
                 />
             </div>
             <div className="col s12 l4">
@@ -45,7 +45,7 @@ const Servicos = () => {
                 nomeServico="Relaxamento"
                 descricaoServico="Corte de Cabelo com tesoura, navalha e ao final um retoque com crede de cabelo..."
                 precoServico="25,00"
-                apiMsgWhatsapp=""
+                mensagemWhats="Olá Juba's! Gostaria de saber mais detalhes e horários sobre o serviço de Relaxamento."
                 />
             </div>
             <div className="col s12 l12"><br /></div>
@@ -55,7 +55,7 @@ const Servicos = () => {
                 nomeServico="Selagem"
                 descricaoServico="Corte de Cabelo com tesoura, navalha e ao final um retoque com crede de cabelo..."
                 precoServico="25,00"
-                apiMsgWhatsapp=""
+                mensagemWhats="Olá Juba's! Gostaria de saber mais detalhes e horários sobre o serviço de Selagem."
                 />
             </div>
             <div className="col s12 l4">
@@ -64,7 +64,7 @@ const Servicos = () => {
                 nomeServico="Luzes"
                 descricaoServico="Corte de Cabelo com tesoura, navalha e ao final um retoque com crede de cabelo..."
                 precoServico="25,00"
-                apiMsgWhatsapp=""
+                mensagemWhats="Olá Juba's! Gostaria de saber mais detalhes e horários sobre o serviço de Luzes"
                 />
             </div>
             <div className="col s12 l4">
@@ -73,7 +73,7 @@ const Servicos = () => {
                 nomeServico="Hidratação"
                 descricaoServico="Corte de Cabelo com tesoura, navalha e ao final um retoque com crede de cabelo..."
                 precoServico="25,00"
-                apiMsgWhatsapp=""
+                mensagemWhats="Olá Juba's! Gostaria de saber mais detalhes e horários sobre o serviço de Hidratação."
                 />
             </div>
 

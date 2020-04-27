@@ -11,7 +11,12 @@ import './style.css'
 //Tooltip
 import Tooltip from '@material-ui/core/Tooltip'
 
+import LinkWhats from '../Utils/Whatsapp'
+import {renderToString} from 'react-dom/server'
+
 const Header = () => {
+
+    const linkWhats = renderToString(<LinkWhats mensagem="Ola Juba's! Gostaria de saber mais detalhes sobre a Barbearia." ></LinkWhats>)
 
     return (
         <header id="homeHREF">
@@ -39,7 +44,7 @@ const Header = () => {
                             </Tooltip>
 
                             <Tooltip title="Juba's no Whatsapp">
-                                    <li className="icon"><a href="!#" target="_blank" rel="noopener noreferrer" ><Whatsapp size={25}/></a></li>
+                                    <li className="icon"><a href={linkWhats} target="_blank" rel="noopener noreferrer" ><Whatsapp size={25}/></a></li>
                             </Tooltip>
 
                         </ul>

@@ -23,7 +23,7 @@ const Contato = () => {
                 <Formulario></Formulario>
             </div>
 
-            <div class="col s12 l12"><br/><br/></div>
+            <div className="col s12 l12"><br/><br/></div>
         </div>
     )
 }
