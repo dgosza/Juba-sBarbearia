@@ -42,11 +42,11 @@ const Rodape = () => {
                         <h5 className="white-text">Links</h5>
                         <ul>
                             <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#homeHREF">Home</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#ambienteHREF">Equipe</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#ambienteHREF">Ambiente</a></li>
                             <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#servicosHREF">Serviços</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#equipeHREF">Produtos</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#contatoHREF">Sobre</a></li>
-                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#localizacaoHREF">Contato</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#equipeHREF">Equipe</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#contatoHREF">Contato</a></li>
+                            <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#localizacaoHREF">Localização</a></li>
                         </ul>
                         <Tooltip title="Juba's no Instagram">
                             <a href="https://www.instagram.com/barbearia_jubas/" rel="noopener noreferrer" target="_blank" className="icon"><Instagram size={30} /></a>
@@ -68,7 +68,7 @@ const Rodape = () => {
             <div className="footer-copyright">
                 <div className="container">
                     © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">Desenvolvido por: Diego Magalhães</a>
+            <a className="grey-text text-lighten-4 right" href="https://www.facebook.com/diegosouzamaga/" target="_blank" rel="noopener noreferrer">Desenvolvido por: Diego Magalhães</a>
                 </div>
             </div>
         </footer>
