@@ -2,14 +2,17 @@
 
 Meu Primeiro projeto desenvolvido para um cliente e amigo que tem uma barbearia e queria ter um site institucional de sua barberia.
 
-## Backend
+## Backend em <b>NodeJS</b>
+### Packages
+- Cors
+- Express
+- NodeMailer
+- Email Template
+- Template Engine para gerar o corpo do e-mail: EJS
 
-## Frontend
-
-- ReactJS
+## Frontend em <b>ReactJS</b>
+### Packages
 - MaterializeCSS
 - Styled Icons
-- Material UI: Tooltip
-
-### UI
-Fonte utilizada para titulos do site: <a href="https://fonts.google.com/specimen/Spartan">Spartan
+- React Icons
+- Material UI
