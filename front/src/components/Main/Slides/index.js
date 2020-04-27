@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './style.css'
+
 const Slides = () => {
     return (
         <div className="slider">
