@@ -8,7 +8,7 @@ const Titulo = (props) => {
     return (
         <Aux>
             <h4 className="Titulo"> {props.children} </h4>
-            <div className="divider" /><br />
+            <div className="col s12 l12" ><br /></div>
         </Aux>
     )
 }
