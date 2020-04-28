@@ -23,9 +23,6 @@ const Formulario = () => {
             if(response.status === 200){
                 window.alert('Mensagem Enviada!')
                 window.location.href = redirectLink
-            }else if(response.status === 500){
-                window.alert('Erro no Servidor! Contate o administrador do Site!')
-                window.location.href = redirectLink
             }
         }
     }

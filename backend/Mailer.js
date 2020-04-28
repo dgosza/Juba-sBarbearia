@@ -2,13 +2,17 @@ const NodeMailer = require('nodemailer')
 const Email = require('email-templates');
 
 const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) => {
+
+    const emailServer = ''
+    const senhaServer = ''
+
     const emailData = NodeMailer.createTransport({
         host: 'smtp.gmail.com',
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'EMAIL', // generated ethereal user
-            pass: 'PASSWORD' // generated ethereal password
+            user: emailServer, // generated ethereal user
+            pass: senhaServer // generated ethereal password
         }
     })
 
@@ -18,7 +22,7 @@ const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) =>
             subject: 'Nova Mensagem de Jubas Barbearia!'
         },
         // uncomment below to send emails in development/test env:
-        send: false,
+        send: true,
         transport: emailData,
         views: {
             options: {
@@ -41,8 +45,6 @@ const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) =>
 
         }
     })
-    .then(() => { return true })
-    .catch(() => { return false })
 
 }
 
