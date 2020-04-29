@@ -3,8 +3,8 @@ const Email = require('email-templates');
 
 const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) => {
 
-    const emailServer = ''
-    const senhaServer = ''
+    const emailServer = 'some email'
+    const senhaServer = 'pass'
 
     const emailData = NodeMailer.createTransport({
         host: 'smtp.gmail.com',
