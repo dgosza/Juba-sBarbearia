@@ -16,7 +16,7 @@ const Equipe = () => {
                 <Titulo>Equipe</Titulo>
                 <div className="col s12 l6 center">
                     <div className="col s12 l12">
-                        <FotoEquipe></FotoEquipe>
+                        <FotoEquipe person="alex"></FotoEquipe>
                         <h5>Alex Souza</h5>
                         <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
                         texto
@@ -26,7 +26,7 @@ const Equipe = () => {
 
                 <div className="col s12 l6">
                     <div className="col s12 l12 center">
-                        <FotoEquipe></FotoEquipe>
+                        <FotoEquipe person="klisler"></FotoEquipe>
                         <h5>Klisler Barboza</h5>
                         <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
                         texto
