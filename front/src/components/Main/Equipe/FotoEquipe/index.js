@@ -14,9 +14,9 @@ const FotoEquipe = (props) => {
 
     return (
         <Aux>
-            <span className="barberLeft">{iconeBarber}</span>
+            <span className="barberLeft hide-on-med-and-down">{iconeBarber}</span>
             <img src={verificaPerson} width="200" className="photoEquipe" alt="Foto do Membro da Equipe" />
-            <span className="barberRight">{iconeBarber}</span>
+            <span className="barberRight hide-on-med-and-down">{iconeBarber}</span>
         </Aux>
     )
 }
