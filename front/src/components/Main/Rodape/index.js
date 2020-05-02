@@ -24,12 +24,12 @@ const Rodape = () => {
                     <div className="col l6 s12">
                         <h5 className="white-text">Juba's Barbearia</h5>
                         <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                        <div className="col s12 l6">
+                        <div className="col s6 l6">
                             <p><b>Horário de Funcionamento</b><br />
                             Dias Úteis: 08h às 18h<br />
                             Finais de Semana: 09h às 15h<br /></p>
                         </div>
-                        <div className="col s12 l6">
+                        <div className="col s6 l6">
                             <p><b>Telefones de Contato</b><br />
                             Fixo: 11-2621-2621<br />
                             Celular: 11-2621-2621<br /></p>
@@ -39,8 +39,8 @@ const Rodape = () => {
                         </p>
                     </div>
                     <div className="col l3 offset-l1 s12">
-                        <h5 className="white-text">Links</h5>
-                        <ul>
+                        <h5 className="white-text hide-on-med-and-down menu">Links</h5>
+                        <ul className="hide-on-med-and-down menu">
                             <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#homeHREF">Home</a></li>
                             <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#ambienteHREF">Ambiente</a></li>
                             <li className="linkRodape"><a className="grey-text text-lighten-3 " href="#servicosHREF">Serviços</a></li>
@@ -60,7 +60,7 @@ const Rodape = () => {
                             <a href={linkWhats} target="_blank" rel="noopener noreferrer"  className="icon"><Whatsapp size={25} /></a>
                         </Tooltip>
                     </div>
-                    <div className="col s12 l2">
+                    <div className="col s12 l2 hide-on-med-and-down menu">
                         <LogoJubas dimensao="200" />
                     </div>
                 </div>
