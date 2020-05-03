@@ -3,7 +3,7 @@ const Email = require('email-templates');
 
 const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) => {
 
-    const emailServer = 'some email'
+    const emailServer = 'email'
     const senhaServer = 'pass'
 
     const emailData = NodeMailer.createTransport({
@@ -18,12 +18,13 @@ const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) =>
 
     const email = new Email({
         message: {
-            from: 'niftylettuce@gmail.com',
+            from: 'jubasbarbearia@gmail.com',
             subject: 'Nova Mensagem de Jubas Barbearia!'
         },
         // uncomment below to send emails in development/test env:
         send: true,
         transport: emailData,
+        preview: false,
         views: {
             options: {
                 //view template Ejs
@@ -35,7 +36,7 @@ const enviaEmail = async (nomeProps, emailProps, assuntoProps, mensagemProps) =>
     await email.send({
         template: 'mars', //pasta onde se encontra o template engine
         message: {
-            to: emailProps
+            to: 'diegomagasouza@gmail.com'
         },
         locals: {
             nome: nomeProps,

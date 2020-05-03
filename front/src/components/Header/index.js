@@ -23,7 +23,7 @@ const Header = () => {
             <nav>
                 <div className="row container">
                     <a href="index.html" className="brand-logo center"> <LogoJubas dimensao="150" /></a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a href="!#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <div className="nav-wrapper">
                         <ul className="left hide-on-med-and-down menu">
                             <li><a href="#homeHREF">Home</a></li>
