@@ -16,3 +16,5 @@ Meu Primeiro projeto desenvolvido para um cliente e amigo que tem uma barbearia 
 - Styled Icons
 - React Icons
 - Material UI
+
+### Site otimizado para mobile de desktop.
